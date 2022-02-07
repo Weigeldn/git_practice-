@@ -36,5 +36,5 @@ function generateMessage()
     let rTitleGenre = titleGenre[Math.floor(Math.random() * 5)];
     console.log(`Here is an idea for your movie. Your movie name should be called ${rTitleName}, the genre should be ${rTitleGenre} and in your movie you should make "${rQuote}" your movie's iconic line`);
 }
-
+// Generates random Message 
 generateMessage();
